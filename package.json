@@ -1,0 +1,29 @@
+{
+  "name": "es6-useful-features",
+  "version": "1.0.0",
+  "description": "Some useful ES6 features that can be used in projects",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon bin/www",
+    "build-api": "babel dev -d api -s -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rajath S Rao",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "eslint": "^4.10.0",
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1"
+  }
+}
